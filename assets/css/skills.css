@@ -1,0 +1,80 @@
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: grid;
+    /* Cria colunas automáticas que se ajustam ao espaço */
+    /* Cada ícone terá no mínimo 60px e no máximo 1 fração do espaço */
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 1.5rem; /* Espaçamento entre os ícones */
+    justify-items: center; /* Centraliza os ícones horizontalmente */
+    align-items: center;   /* Centraliza os ícones verticalmente */
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.skills .tools ul li {
+    width: 80px;  /* Largura fixa para a "caixa" do logo */
+    height: 80px; /* Altura fixa para a "caixa" do logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .tools ul li img {
+    max-width: 100%;  /* A imagem ocupa no máximo a largura da caixa */
+    max-height: 100%; /* A imagem ocupa no máximo a altura da caixa */
+    object-fit: contain; /* Garante que a imagem não distorça */
+}
+
+.skills .personal ul {
+    display: grid; /* Grid é melhor para alinhar essas duas colunas de texto */
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem 2rem; /* Primeiro valor é espaço entre linhas, segundo entre colunas */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills .personal ul li {
+    display: flex;
+    align-items: center; /* Centraliza o check verticalmente com o texto */
+    margin: 1rem 0; /* Ajustei para não espalhar muito para os lados */
+    padding: 0;
+}
+
+.skills .personal li::before {
+    content: '';
+    display: inline-block;
+    
+    /* Tamanho fixo para todos */
+    width: 1.2rem; 
+    height: 1.2rem;
+    
+    /* Garante que o ícone não estique */
+    flex-shrink: 0; 
+    
+    background-image: url('/assets/img/icons/check.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    margin-right: 0.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /* Alinha os blocos à esquerda */
+        gap: 5rem; /* Ajuste distância entre as duas colunas */
+    }
+    
+    .skills > section {
+        flex: 1; /* Faz as duas colunas terem larguras proporcionais */
+    }
+}

@@ -10,7 +10,7 @@ function updateProfileINfo(profileData){
     const job = document.getElementById('profile.job')
     job.innerText = profileData.job
 
-    const location = document.getElementById('profile. location' )
+    const location = document.getElementById('profile.location' )
     location.innerText = profileData.location
 
     const phone = document.getElementById('profile.phone')
@@ -18,7 +18,7 @@ function updateProfileINfo(profileData){
     phone.href = `tel:${profileData.phone}`
 
     const email = document.getElementById('profile.email')
-    email.innerText = profilData.email
+    email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 
 }

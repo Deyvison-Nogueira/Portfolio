@@ -20,8 +20,8 @@
 }
 
 .header .photo {
-    width: 150px;
-    height: 150px; 
+    width: 240px;
+    height: 240px; 
     border-radius: 50%;
     overflow: hidden; /* Corta o que sobrar da imagem para fora do círculo */
     display: flex;

@@ -58,7 +58,7 @@
     /* Garante que o ícone não estique */
     flex-shrink: 0; 
     
-    background-image: url('/assets/img/icons/check.svg');
+    /* background-image: url('/assets/img/icons/check.svg'); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

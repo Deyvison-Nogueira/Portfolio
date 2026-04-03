@@ -48,18 +48,14 @@
 }
 
 .skills .personal li::before {
-    display: flex;        /* Alinha os itens lado a lado */
-    flex-wrap: wrap;     /* Faz os itens pularem para a linha de baixo quando não houver espaço */
-    list-style: disc;    /* Mantém a bolinha (ou use 'none' para remover)
-    
-    /* Tamanho fixo para todos */
-    width: 1.2rem; 
-    height: 1.2rem;
-    
-    /* Garante que o ícone não estique */
-     flex-shrink: 0; 
-    
+    content: ""; /* Obrigatório para o before aparecer */
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff; /* Cor da bolinha */
+    border-radius: 50%;    /* Deixa redondo */
     margin-right: 0.8rem;
+    flex-shrink: 0;
 }
 
 @media only screen and (min-width: 768px) {

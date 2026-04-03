@@ -38,9 +38,9 @@ function updatLanguage(profilDate){
     languages.innerHTML = profilDate.languages.map(language => `<li>${language}</li>`).join('')
 }
 
-function updatPortifolio(profilDate){
-    const portfolio = document.getElementById('profile.portifolio')
-    portfolio.innerHTML = profilDate.portifolio.map(project =>{
+function updatPortfolio(profilDate){
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profilDate.portfolio.map(project =>{
         return`
         <li>
             <h3 ${project.github ? 'class="github"': ''}>${project.name}</h3>
@@ -56,5 +56,5 @@ function updatPortifolio(profilDate){
     updatSoftSkill(profileData)
     updatHardSkill(profileData)
     updatLanguage(profileData)
-    updatPortifolio(profileData)
+    updatPortfolio(profileData)
 })()

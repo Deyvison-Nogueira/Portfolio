@@ -38,10 +38,23 @@ function updatLanguage(profilDate){
     languages.innerHTML = profilDate.languages.map(language => `<li>${language}</li>`).join('')
 }
 
+function updatPortifolio(profilDate){
+    const portfolio = document.getElementById('profile.portifolio')
+    languages.innerHTML = profilDate.languages.map(project =>{
+        return
+        `<li>
+            <h3 ${project.github ? 'class="github"': ''}>${project.name}</h3>
+            <a href="${project.url}" target="_blank">${project.url}</a>
+        </li>`
+                
+        }).join('')
+}
+
 (async () =>{
     const profileData = await fecthProfileData()
     updateProfileINfo(profileData)
     updatSoftSkill(profileData)
     updatHardSkill(profileData)
     updatLanguage(profileData)
+    updatPortifolio(profileData)
 })()

@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "Css",
-        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0/assets/img/skills/css3.svg"
+        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0assets/img/skills/css3.svg"
       },
       {
         "name": "Java",
-        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0/assets/img/skills/java.svg"
+        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0assets/img/skills/java.svg"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0/assets/img/skills/react.svg"
+        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0assets/img/skills/react.svg"
       },
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0/assets/img/skills/python.svg"
+        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0assets/img/skills/python.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0/assets/img/skills/javaScript.svg"
+        "logo": "https://raw.githubusercontent.com/Deyvison-Nogueira/Portfolio/756bc741a694342127a3d40c4948d74b1ec361e0assets/img/skills/javaScript.svg"
       }
     ],
     "softSkills": [

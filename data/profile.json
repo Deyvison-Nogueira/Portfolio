@@ -43,13 +43,19 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "name": "Extraindo dados Api JS Pokedex",
       "url": "https://github.com/RenanJPaula/js-developer-pokedex",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto de site JS",
+      "url": "https://github.com/Deyvison-Nogueira/Portfolio",
+      "github": true
+    },
+
+    {
+      "name": "Projeto de Engenharia de dados Python",
+      "url": "https://github.com/Deyvison-Nogueira/Block-Diagram-Studio",
       "github": true
     }
   ],

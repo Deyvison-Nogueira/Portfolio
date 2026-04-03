@@ -40,7 +40,7 @@ function updatLanguage(profilDate){
 
 function updatPortifolio(profilDate){
     const portfolio = document.getElementById('profile.portifolio')
-    languages.innerHTML = profilDate.languages.map(project =>{
+    portfolio.innerHTML = profilDate.portifolio.map(project =>{
         return
         `<li>
             <h3 ${project.github ? 'class="github"': ''}>${project.name}</h3>

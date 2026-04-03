@@ -23,9 +23,9 @@ function updateProfileINfo(profileData){
 
 }
 
-function updatSoftSkill(profildate){
+function updatSoftSkill(profilDate){
     const softSkils = document.getElementById('profile.skills.softSkills')
-    softSkils.innerHTML = profildate.softSkils.softSkils.map(skill => `<li>${skill}<li>`).join('')
+    softSkils.innerHTML = profilDate.skills.softSkills.map(skill => `<li>${skill}<li>`).join('')
 }
 
 (async () =>{
